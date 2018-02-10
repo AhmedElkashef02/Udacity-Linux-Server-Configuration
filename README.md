@@ -3,7 +3,7 @@ This is the final project for the Udacity FullStack Web Development Nanodegree.
 
 #### Project Description
 
-Taking a baseline installation of a Linux server and preparing it to host The [https://github.com/AhmedElkashef02/Item-Catalogue](Item Catalogue) application. Also securing the server from a number of attack vectors, and installing and configuring a database server.
+Taking a baseline installation of a Linux server and preparing it to host The [Item Catalogue](https://github.com/AhmedElkashef02/Item-Catalogue) application. Also securing the server from a number of attack vectors, and installing and configuring a database server.
 
 ### Important Info
 
