@@ -13,11 +13,12 @@ Taking a baseline installation of a Linux server and preparing it to host The [h
 
 ### Summary of configurations and software Installed
 
-- Created user `grader` with sudo access and key-pair login
-- Login to user `grader` using the command `ssh grader@18.194.244.229 -p 2200 -i ~/.ssh/id_rsa`
-- Updated packages using `sudo apt-get update` & `sudo apt-get upgrade`
-- Configured Uncomplicated FireWall `UFW` to only allow ports `SSH`, `HTTP`, `NTP`
-- Configured the timezone to be UTC
-- Installed `Apache2`,`mod_wsgi`,`postgresql`,`Flask`,`httplib2`, `oauth2client`, `sqlalchemy`, `psycopg2`, `sqlalchemy_utils`
-- Renamed the main project file to `__init__.py` so it can be recognized by python as a package
-- Created a postgresql User `catalog` with limited permissions
+- Created user `grader` with sudo access and key-pair login.
+- Login to user `grader` using the command `ssh grader@18.194.244.229 -p 2200 -i ~/.ssh/id_rsa`.
+- Updated packages using `sudo apt-get update` & `sudo apt-get upgrade`.
+- Configured Uncomplicated FireWall `UFW` to only allow ports `SSH`, `HTTP`, `NTP`.
+- Configured the timezone to be UTC.
+- Installed `Apache2`,`mod_wsgi`,`postgresql`,`Flask`,`httplib2`, `oauth2client`, `sqlalchemy`, `psycopg2`, `sqlalchemy_utils`.
+- Renamed the main project file to `__init__.py` so it can be recognized by python as a package.
+- Created a postgresql User `catalog` with limited permissions.
+- Successfully cloned and deployed the Item Catalogue App.
